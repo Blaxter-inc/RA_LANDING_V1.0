@@ -1,25 +1,38 @@
+import React from "react";
 import styles from "./style";
 
+import {
+  NavBar,
+  Main,
+  Motivations,
+  Benefits,
+  DataMentions,
+  Footer,
+} from "./components";
+
 const App = () => (
-  // Navbar
-  <div className="bg-primary w-full overflow-hidden">
+  <div className={`bg-primary w-full overflow-hidden ${styles.flexColumn}`}>
+    {/* Navbar */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>Navbar</div>
+      <div className={styles.boxWidth}>
+        <NavBar />
+      </div>
     </div>
 
+    {/* Main Content */}
     <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Hero</div>
+      <div className={styles.boxWidth}>
+        <Main />
+      </div>
     </div>
 
+    {/* Additional Sections */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>stats
-      Business 
-      Billing
-      CardDeal
-      Testimonials
-      clients
-      CTA
-      Footer
+      <div className={styles.boxWidth}>
+        <Motivations />
+        <Benefits />
+        <DataMentions />
+        <Footer />
       </div>
     </div>
   </div>
