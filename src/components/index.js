@@ -1,6 +1,6 @@
 import Benefits from "./Benefits";
 import Button from "./Button";
-import DataMentions from "./DataMentions";
+import Mentions from "./DataMentions";
 import Footer from "./Footer";
 import InscriptionBox from "./InscriptionBox";
 import LogoBox from "./LogoBox";
@@ -12,7 +12,7 @@ import TextBox from "./TextBox";
 export {
     Benefits,
     Button,
-    DataMentions,
+    Mentions,
     Footer,
     InscriptionBox,
     LogoBox,

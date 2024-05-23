@@ -6,7 +6,7 @@ import {
   Main,
   Motivations,
   Benefits,
-  DataMentions,
+  Mentions,
   Footer,
 } from "./components";
 
@@ -31,7 +31,7 @@ const App = () => (
       <div className={styles.boxWidth}>
         <Motivations />
         <Benefits />
-        <DataMentions />
+        <Mentions />
         <Footer />
       </div>
     </div>
