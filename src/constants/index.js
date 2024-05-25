@@ -19,6 +19,34 @@ export const navLinks = [
   },
 ];
 
+export const stats = [
+  {
+    id: "stats-1",
+    title: "Impact of Test Automation",
+    value: "4x",
+    detail: "Projects with high test automation report 4 times fewer defects.",
+  },
+  {
+    id: "stats-2",
+    title: "Benefits of Efficient Test Management",
+    value: "-30%",
+    detail: "Reduces development cycle time by 20% and test costs by 30%.",
+  },
+  {
+    id: "stats-3",
+    title: "Adoption of AI in Software Development",
+    value: "75%",
+    detail: "Software development leaders use AI in their processes.",
+  },
+  {
+    id: "stats-4",
+    title: "Importance of Testing for Non-Technical Users",
+    value: "85%",
+    detail: "Consider testing important for ensuring software quality.",
+  },
+  ,
+];
+
 // export const features = [
 //   {
 //     id: "feature-1",
@@ -67,24 +95,6 @@ export const navLinks = [
 //     name: "Kenn Gallagher",
 //     title: "Founder & Leader",
 //     img: people03,
-//   },
-// ];
-
-// export const stats = [
-//   {
-//     id: "stats-1",
-//     title: "User Active",
-//     value: "3800+",
-//   },
-//   {
-//     id: "stats-2",
-//     title: "Trusted by Company",
-//     value: "230+",
-//   },
-//   {
-//     id: "stats-3",
-//     title: "Transaction",
-//     value: "$230M+",
 //   },
 // ];
 

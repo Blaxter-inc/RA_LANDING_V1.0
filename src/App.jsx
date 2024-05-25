@@ -9,6 +9,7 @@ import {
   Mentions,
   Footer,
 } from "./components";
+import Stats from "./components/Stats";
 
 const App = () => (
   <div className={`bg-primary w-full overflow-hidden ${styles.flexColumn}`}>
@@ -29,6 +30,7 @@ const App = () => (
     {/* Additional Sections */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={styles.boxWidth}>
+        <Stats />
         <Motivations />
         <Benefits />
         <Mentions />
