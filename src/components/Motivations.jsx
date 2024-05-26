@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Motivations = () => {
-  return (
-    <div>Motivations</div>
-  )
-}
+  return <div>Motivations</div>;
+};
 
-export default Motivations
+export default Motivations;
