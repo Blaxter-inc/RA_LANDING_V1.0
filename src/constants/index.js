@@ -1,4 +1,5 @@
 // import { people01, people02, people03, facebook, instagram, linkedin, twitter, , binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { raIcon } from "../assets";
 
 export const navLinks = [
   {
@@ -47,29 +48,38 @@ export const stats = [
   ,
 ];
 
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+export const features = [
+  {
+    id: "feature-1",
+    icon: raIcon,
+    title: "Customized Test Plans",
+    content: "Design plans tailored to your project's needs.",
+  },
+  {
+    id: "feature-2",
+    icon: raIcon,
+    title: "Efficient Execution",
+    content: "Perform automated tests for quality and performance assurance.",
+  },
+  {
+    id: "feature-3",
+    icon: raIcon,
+    title: "Results Management",
+    content: "Organize and highlight issues with test results.",
+  },
+  {
+    id: "feature-4",
+    icon: raIcon,
+    title: "Real-Time Collaboration",
+    content: "Facilitate communication and teamwork among your teams.",
+  },
+  {
+    id: "feature-5",
+    icon: raIcon,
+    title: "Security and Privacy",
+    content: "Ensure comprehensive data protection for your projects.",
+  },
+];
 
 // export const feedback = [
 //   {
