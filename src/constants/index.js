@@ -81,32 +81,28 @@ export const features = [
   },
 ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
+export const mentions = [
+  {
+    id: "test-automation",
+    content: "Projects with a high level of test automation reported a defect rate 4 times lower than those with a low level of automation.",
+    source: "The Impact of Test Automation on Software Quality by Capers Jones (2014)"
+  },
+  {
+    id: "test-management",
+    content: "Efficient test management can reduce development cycle time by 20% and testing costs by 30%.",
+    source: "The Benefits of Effective Test Management by IBM (2019)"
+  },
+  {
+    id: "ai-software-development",
+    content: "AI won’t replace all software developers and engineers. AI will help developers accomplish more by freeing them up to work on higher-level problems. Companies that invest in increased automation to chain tools and AI together will amplify the impact human developers make.",
+    source: "AI in software development: Key opportunities + challenges by Pluralsight"
+  },
+  {
+    id: "generative-ai",
+    content: "Developers are building with generative AI in big numbers.",
+    source: "The state of open source and rise of AI in 2023 by Github (2023)"
+  },
+];
 
 // export const footerLinks = [
 //   {

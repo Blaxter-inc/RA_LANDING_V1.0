@@ -19,13 +19,11 @@ const Vision = () => (
         high-quality software that exceeds expectations. Join us as we pave the
         way for the future of software testing.
       </p>
-      <Button styles="mt-10"/>
+      <Button styles="mt-10" />
     </div>
     <div className={layout.sectionImg}>
       <img src={board1} alt="card" className="w-[100%] h-[100%]" />
-
     </div>
-    
   </section>
 );
 

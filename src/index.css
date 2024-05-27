@@ -112,15 +112,15 @@
   box-shadow: var(--card-shadow);
 }
 
-.feedback-container .feedback-card:last-child {
+.data-mention-container .data-mention-card:last-child {
   margin-right: 0px;
 }
 
-.feedback-card {
+.data-mention-card {
   background: transparent;
 }
 
-.feedback-card:hover {
+.data-mention-card:hover {
   background: var(--black-gradient);
 }
 
