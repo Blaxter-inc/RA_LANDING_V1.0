@@ -15,7 +15,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
 
     <div className="flex-1 flex ml-3">
+<<<<<<< HEAD
       <h4 className="font-poppins font-semibold text-red-600 text-[18px] leading-[23px] mb-1">
+=======
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
+>>>>>>> refs/remotes/origin/main
         {title}
       </h4>
 
