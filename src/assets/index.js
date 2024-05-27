@@ -7,6 +7,11 @@ import ls_logo from "./ls_logo.svg";
 import raIcon from "./raIcon.svg";
 import board1 from "./board1.png";
 import check from "./check.svg";
+import instagramIcon from "./instagram.svg";
+import facebookIcon  from "./facebook.svg";
+import twitterIcon  from "./twitter.svg";
+import linkedinIcon  from "./linkedin.svg";
+
 
 export {
   sm_logo,
@@ -18,4 +23,8 @@ export {
   raIcon,
   board1,
   check,
+  instagramIcon,
+  facebookIcon,
+  twitterIcon,
+  linkedinIcon,
 };

@@ -1,5 +1,11 @@
-// import { people01, people02, people03, facebook, instagram, linkedin, twitter, , binance, coinbase, dropbox, send, shield, star  } from "../assets";
-import { raIcon } from "../assets";
+// import { facebook, instagram, linkedin, twitter } from "../assets";
+import {
+  raIcon,
+  instagramIcon,
+  facebookIcon,
+  twitterIcon,
+  linkedinIcon,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -84,114 +90,94 @@ export const features = [
 export const mentions = [
   {
     id: "test-automation",
-    content: "Projects with a high level of test automation reported a defect rate 4 times lower than those with a low level of automation.",
-    source: "The Impact of Test Automation on Software Quality by Capers Jones (2014)"
+    content:
+      "Projects with a high level of test automation reported a defect rate 4 times lower than those with a low level of automation.",
+    source:
+      "The Impact of Test Automation on Software Quality by Capers Jones (2014)",
   },
   {
     id: "test-management",
-    content: "Efficient test management can reduce development cycle time by 20% and testing costs by 30%.",
-    source: "The Benefits of Effective Test Management by IBM (2019)"
+    content:
+      "Efficient test management can reduce development cycle time by 20% and testing costs by 30%.",
+    source: "The Benefits of Effective Test Management by IBM (2019)",
   },
   {
     id: "ai-software-development",
-    content: "AI won’t replace all software developers and engineers. AI will help developers accomplish more by freeing them up to work on higher-level problems. Companies that invest in increased automation to chain tools and AI together will amplify the impact human developers make.",
-    source: "AI in software development: Key opportunities + challenges by Pluralsight"
+    content:
+      "AI won’t replace all software developers and engineers. AI will help developers accomplish more by freeing them up to work on higher-level problems. Companies that invest in increased automation to chain tools and AI together will amplify the impact human developers make.",
+    source:
+      "AI in software development: Key opportunities + challenges by Pluralsight",
   },
   {
     id: "generative-ai",
     content: "Developers are building with generative AI in big numbers.",
-    source: "The state of open source and rise of AI in 2023 by Github (2023)"
+    source: "The state of open source and rise of AI in 2023 by Github (2023)",
   },
 ];
 
-// export const footerLinks = [
-//   {
-//     title: "Useful Links",
-//     links: [
-//       {
-//         name: "Content",
-//         link: "https://www.hoobank.com/content/",
-//       },
-//       {
-//         name: "How it Works",
-//         link: "https://www.hoobank.com/how-it-works/",
-//       },
-//       {
-//         name: "Create",
-//         link: "https://www.hoobank.com/create/",
-//       },
-//       {
-//         name: "Explore",
-//         link: "https://www.hoobank.com/explore/",
-//       },
-//       {
-//         name: "Terms & Services",
-//         link: "https://www.hoobank.com/terms-and-services/",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Community",
-//     links: [
-//       {
-//         name: "Help Center",
-//         link: "https://www.hoobank.com/help-center/",
-//       },
-//       {
-//         name: "Partners",
-//         link: "https://www.hoobank.com/partners/",
-//       },
-//       {
-//         name: "Suggestions",
-//         link: "https://www.hoobank.com/suggestions/",
-//       },
-//       {
-//         name: "Blog",
-//         link: "https://www.hoobank.com/blog/",
-//       },
-//       {
-//         name: "Newsletters",
-//         link: "https://www.hoobank.com/newsletters/",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Partner",
-//     links: [
-//       {
-//         name: "Our Partner",
-//         link: "https://www.hoobank.com/our-partner/",
-//       },
-//       {
-//         name: "Become a Partner",
-//         link: "https://www.hoobank.com/become-a-partner/",
-//       },
-//     ],
-//   },
-// ];
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Content",
+        link: "https://www.hoobank.com/content/",
+      },
+      {
+        name: "How it Works",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "Create",
+        link: "https://www.hoobank.com/create/",
+      },
+      {
+        name: "Explore",
+        link: "https://www.hoobank.com/explore/",
+      },
+      {
+        name: "Terms & Services",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+    ],
+  },
+  {
+    title: "Partner",
+    links: [
+      {
+        name: "Our Partner",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Become a Partner",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+    ],
+  },
+];
 
-// export const socialMedia = [
-//   {
-//     id: "social-media-1",
-//     icon: instagram,
-//     link: "https://www.instagram.com/",
-//   },
-//   {
-//     id: "social-media-2",
-//     icon: facebook,
-//     link: "https://www.facebook.com/",
-//   },
-//   {
-//     id: "social-media-3",
-//     icon: twitter,
-//     link: "https://www.twitter.com/",
-//   },
-//   {
-//     id: "social-media-4",
-//     icon: linkedin,
-//     link: "https://www.linkedin.com/",
-//   },
-// ];
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagramIcon,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebookIcon,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitterIcon,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedinIcon,
+    link: "https://www.linkedin.com/",
+  },
+];
 
 // export const clients = [
 //   {
