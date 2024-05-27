@@ -8,6 +8,7 @@ import {
   Mission,
   Vision,
   Mentions,
+  CTA,
   Footer,
 } from "./components";
 import Stats from "./components/Stats";
@@ -36,6 +37,7 @@ const App = () => (
         <Mission />
         <Vision />
         <Mentions />
+        <CTA />
         <Footer />
       </div>
     </div>
