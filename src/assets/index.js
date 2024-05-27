@@ -5,5 +5,7 @@ import itemMark from "./itemMark.svg";
 import arrowUp from "./arrowUp.svg";
 import ls_logo from "./ls_logo.svg";
 import raIcon from "./raIcon.svg";
+import board1 from "./board1.png";
 
-export { sm_logo, close, menu, itemMark, arrowUp, ls_logo, raIcon };
+export { sm_logo, close, menu, itemMark, arrowUp, ls_logo, 
+    raIcon, board1 };
