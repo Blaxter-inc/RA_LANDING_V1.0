@@ -4,8 +4,9 @@ import styles from "./style";
 import {
   NavBar,
   Main,
-  Motivations,
   Benefits,
+  Mission,
+  Vision,
   Mentions,
   Footer,
 } from "./components";
@@ -32,7 +33,8 @@ const App = () => (
       <div className={styles.boxWidth}>
         <Stats />
         <Benefits />
-        <Motivations />
+        <Mission />
+        <Vision />
         <Mentions />
         <Footer />
       </div>

@@ -1,7 +1,7 @@
 import { board1 } from "../assets";
 import styles, { layout } from "../style";
 
-const Motivations = () => (
+const Mission = () => (
   <section id="testBoard" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
@@ -20,11 +20,9 @@ const Motivations = () => (
       h-[50%] rounded-full red__gradient"
       ></div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          Revolutionizing Software Testing
-          <br />
-          <br className="sm-block hidden" />
+        <h2 className={`${styles.heading2} text-gradient`}>
           Our Mission:
+          <br className="sm-block hidden" />
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           At RA, we're dedicated to revolutionizing software testing. Our
@@ -37,4 +35,4 @@ const Motivations = () => (
   </section>
 );
 
-export default Motivations;
+export default Mission;

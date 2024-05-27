@@ -5,7 +5,8 @@ import Footer from "./Footer";
 import InscriptionBox from "./InscriptionBox";
 import LogoBox from "./LogoBox";
 import Main from "./Main";
-import Motivations from "./Motivations";
+import Mission from "./Mission";
+import Vision from "./Vision"
 import NavBar from "./NavBar";
 import TextBox from "./TextBox";
 
@@ -17,7 +18,8 @@ export {
     InscriptionBox,
     LogoBox,
     Main,
-    Motivations,
+    Mission,
+    Vision,
     NavBar,
     TextBox,
 }
