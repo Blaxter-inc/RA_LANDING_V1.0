@@ -34,12 +34,8 @@ const App = () => (
       <div className={styles.boxWidth}>
         <Stats />
         <Benefits />
-<<<<<<< HEAD
         <Mission />
         <Vision />
-=======
-        <Motivations />
->>>>>>> refs/remotes/origin/main
         <Mentions />
         <CTA />
         <Footer />
