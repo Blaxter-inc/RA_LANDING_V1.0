@@ -9,50 +9,51 @@ on:
       - main
 
 jobs:
+
   build:
     name: Build
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "14"
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run tests
-        run: npm test
-
-      - name: Build project
-        run: npm run build
-
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run tests
+      run: npm test
+      
+    - name: Build project
+      run: npm run build
+      
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-
+    
     if: github.ref == 'refs/heads/main'
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Deploy to production
-        env:
-          HOST_PASSWORD: ${{ secrets.HOST_PASSWORD }}
-        run: |
-          npm run build
-          npm run deploy
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Deploy to production
+      env:
+        HOST_PASSWORD: ${{ secrets.HOST_PASSWORD }}
+      run: |
+        npm run build
+        npm run deploy
