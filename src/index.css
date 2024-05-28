@@ -31,7 +31,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-red-gradient {
@@ -133,7 +132,6 @@
   background: linear-gradient(90deg, #000000 0%, #420003 100%);
   filter: blur(900px);
 }
-
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
