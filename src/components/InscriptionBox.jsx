@@ -1,5 +1,3 @@
-import React from 'react'
-
 const InscriptionBox = () => {
   return (
     <div>InscriptionBox</div>

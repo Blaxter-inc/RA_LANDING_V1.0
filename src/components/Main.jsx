@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../style.js";
 import { itemMark, ls_logo } from "../assets/index.js";
 import GetStarted from "./GetStarted.jsx";
