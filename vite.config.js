@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/RA_LANDING_V1.0/"
+  base: '/RA_LANDING_V1.0/'
 })
