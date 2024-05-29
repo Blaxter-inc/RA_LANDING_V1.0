@@ -11,6 +11,8 @@ import instagramIcon from "./instagram.svg";
 import facebookIcon  from "./facebook.svg";
 import twitterIcon  from "./twitter.svg";
 import linkedinIcon  from "./linkedin.svg";
+import board1Video  from "./board1Video.mp4";
+
 
 
 export {
@@ -27,4 +29,5 @@ export {
   facebookIcon,
   twitterIcon,
   linkedinIcon,
+  board1Video,
 };

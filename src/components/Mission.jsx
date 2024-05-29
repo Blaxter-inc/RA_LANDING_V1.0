@@ -1,24 +1,19 @@
-import { board1 } from "../assets";
+import { board1Video } from "../assets"; 
 import styles, { layout } from "../style";
 
 const Mission = () => (
   <section id="testBoard" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img
-        src={board1}
-        alt="test_board"
-        className="w-[80%]
-      h-[80%] relative z-[5]"
+      <video
+        src={board1Video} // Set the source of the video
+        type="video/mp4" // Specify the type of video
+        alt="test_board_video" // Provide alternative text for accessibility
+        className="w-[80%] h-[80%] relative z-[5]" // Apply the same styling classes
+        autoPlay // Automatically start playing the video
+        loop // Loop the video
+        muted // Mute the video to prevent autoplay restrictions
       />
 
-      <div
-        className="absolute z-[3] -left-1/2 top-0 w-[50%] 
-      h-[50%] rounded-full white__gradient"
-      ></div>
-      <div
-        className="absolute z-[0] -left-1/2 bottom-0 w-[50%] 
-      h-[50%] rounded-full red__gradient"
-      ></div>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2} text-gradient`}>
           Our Mission:

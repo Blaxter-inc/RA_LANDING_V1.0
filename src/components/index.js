@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import InscriptionBox from "./InscriptionBox";
 import LogoBox from "./LogoBox";
 import Main from "./Main";
-import Mission from "./Mission";
+import Mission from "./Mission.jsx";
 import Vision from "./Vision"
 import NavBar from "./NavBar";
 import TextBox from "./TextBox";
