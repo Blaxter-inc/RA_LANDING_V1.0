@@ -1,4 +1,4 @@
-import { board1Video } from "../assets";
+import { board1Video } from "../assets"; 
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -22,7 +22,7 @@ const Vision = () => (
       <Button styles="mt-10" />
     </div>
     <div className={layout.sectionImg}>
-      <video
+    <video
         src={board1Video} // Set the source of the video
         type="video/mp4" // Specify the type of video
         alt="test_board_video" // Provide alternative text for accessibility
