@@ -30,11 +30,15 @@ const Benefits = () => {
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          Unlock Faster Time to Market, <br className="responsive-br" />
-          Effortlessly Manage Your Testing Needs, Revolutionize Your Quality
-          Assurance.
-        </h2>
+        <div className={styles.headingContainer}>
+          <h2 className={styles.heading2}>
+            Revolutionize Your Approach
+            <br className="responsive-br" />
+            to Market Entry, Testing,
+            <br className="responsive-br" />
+            and Quality Assurance
+          </h2>
+        </div>
         <Button styles="mt-10" />
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
