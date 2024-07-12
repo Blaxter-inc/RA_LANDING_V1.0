@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: "./",
   esbuild: {
-    jsxFactory: 'React.createElement', 
+    jsxFactory: "React.createElement",
     jsxInject: `import React from 'react';`,
   },
 });
