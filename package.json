@@ -5,9 +5,10 @@
   "type": "module",
   "homepage": "https://blaxter-inc.github.io/RA_LANDING_V1.0/",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "dev": "vite",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
