@@ -1,6 +1,6 @@
 import { layout } from "../style";
 import styles from "../style";
-import videoSource from "../assets/RA_V01.mp4";
+import videoSource from "../assets/RA_video.mp4";
 
 const Mission = () => (
   <section id="testBoard" className={layout.sectionReverse}>
